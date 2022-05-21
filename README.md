@@ -10,6 +10,18 @@ First install the dependencies via conda:
  * numpy
  * Python >= 3.6
 
+For development on Mac
+```
+conda create -p ./env
+conda activate ./env
+conda install pip
+./env/bin/pip install -r requirements/dev.txt
+./env/bin/pip install -e .
+./env/bin/pip install torch
+./env/bin/pip install rdkit-pypi
+./env/bin/pip install networkx
+```
+
 And then run `pip install .`. Additional dependency for property-guided finetuning:
  * Chemprop >= 1.2.0
 
