@@ -1,3 +1,5 @@
+__version__ = 0.0.1
+
 from hgraph.mol_graph import MolGraph
 from hgraph.encoder import HierMPNEncoder
 from hgraph.decoder import HierMPNDecoder
