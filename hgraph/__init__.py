@@ -1,8 +1,11 @@
-__version__ = 0.0.1
+__version__ = "0.0.1a1"
 
-from hgraph.mol_graph import MolGraph
-from hgraph.encoder import HierMPNEncoder
-from hgraph.decoder import HierMPNDecoder
-from hgraph.vocab import Vocab, PairVocab, common_atom_vocab
-from hgraph.hgnn import HierVAE, HierVGNN, HierCondVGNN
-from hgraph.dataset import MoleculeDataset, MolPairDataset, DataFolder, MolEnumRootDataset
+from hgraph.dataset import DataFolder  # noqa
+from hgraph.dataset import MoleculeDataset  # noqa
+from hgraph.dataset import MolEnumRootDataset  # noqa
+from hgraph.dataset import MolPairDataset  # noqa
+from hgraph.decoder import HierMPNDecoder  # noqa
+from hgraph.encoder import HierMPNEncoder  # noqa
+from hgraph.hgnn import HierCondVGNN, HierVAE, HierVGNN  # noqa
+from hgraph.mol_graph import MolGraph  # noqa
+from hgraph.vocab import PairVocab, Vocab, common_atom_vocab  # noqa
